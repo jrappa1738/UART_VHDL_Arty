@@ -23,7 +23,7 @@ In Vivado,  import all .vhd files as design sources.  Add a constraints file for
 Synthesize and implement! <br />
 Use a serial terminal program like Uterm to communicate over USB.  <br />
 Type into terminal to send ascii characters to the Arty UART.  <br />
-Press Button1 on Arty board (or whatever digital input specified in .xdc) to receive the data back! <br />
+Press Button1 on Arty board (or whatever digital input specified in .xdc) to send the received the data back! <br />
 
 ## State of the project:
 Finished for now.  This is a way to get any data you want from a PC into the logical fabric of your FPGA design.  Excellent!  Could use later as an IP block. <br /> <br />
