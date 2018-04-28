@@ -25,9 +25,11 @@ Use a serial terminal program like Uterm to communicate over USB.  <br />
 Type into terminal to send ascii characters to the Arty UART.  Baud Rate should be set to 115,200 <br />
 Press Button1 on Arty board (or whatever digital input specified in .xdc) to send the received the data back! <br />
 
+![Alt text](UART_test.png?raw=true "UART test")
+
 ## State of the project:
 Finished for now.  This is a way to get any data you want from a PC into the logical fabric of your FPGA design. <br /> <br /> 
-If I have more time, it could be improved as follows:
-Reset clears out all data in RAM. <br /> 
-UART Transmitter only transmits valid contents of RAM, rather than entire 256 bytes <br /> 
-Create IP block <br /> 
+If I have more time, it could be improved as follows: <bar />
+- Reset clears out all data in RAM. <br /> 
+- UART Transmitter only transmits valid contents of RAM, rather than entire 256 bytes <br /> 
+- Create IP block <br /> 
