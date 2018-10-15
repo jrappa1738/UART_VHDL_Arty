@@ -3,7 +3,7 @@
 -- Allan Douglas--
 -- EE331 -- Winter 2017 --- 
 -- Testing Testing Testing --- 
-
+-- THis will be a merge error, hopefully -- 
 
 
 library ieee; 
